@@ -18,6 +18,7 @@
             a {
                 color: white;
                 text-decoration: none;
+                font-style: italic;
             }
 
 
@@ -44,6 +45,11 @@
                 width: 400px;
             }
 
+            #link_blog {
+                color: rgb(121, 252, 252);
+            }
+
+
             .centraliza {
                 text-align: center;
                 
@@ -61,12 +67,14 @@
             }
 
             .topico_horizontal {
-                color: white;
+                border-style: solid;
+                color: antiquewhite;
                 background-color: rgb(65, 30, 152);
-                padding: 1px 10px;
-                border-radius: 10%;
-                margin: 10px ;
-                width: 1200px;
+                padding: 15px 30px;
+                border-radius: 50px;
+                margin: 3px ;
+                width: 1000px;
+                height: 120px;
             }
 
         </style>
@@ -88,6 +96,7 @@
                 <a href="#perfil"><h3>º Minha foto</h3></a>
                 <a href="#about"><h3>º Quem sou eu</h3></a>
                 <a href="#habilidades"><h3>º Habilidades</h3></a>
+                <a href="#link_blog"><h3>º Blog favorito</h3></a>
             </ul>
         </div>
 
@@ -106,7 +115,7 @@
         <div class = "topicos">
             <br><h2 id="habilidades"><strong>Minhas habilidades</strong></h2>
             <ul id = "ga">
-                <li><em><strong>Dedicado</strong></em></li>
+                <li><strong>Dedicado</strong></li>
                 <li>Focado</li>
                 <li>Sociável</li>
                 <li>Aprendo rápido (de certo modo)</li>
@@ -117,7 +126,7 @@
         <br>
         <div class = "topico_horizontal">
             <h2><strong>O blog que eu mais gosto é o The Developer's life (Autor do blog: André Noel)</strong></h2>
-            <h4><a href="https://developerslife.tech/pt/" target="_blank">Clique aqui para acessar o blog!</a></h4><br>
+            <h4><a id = "link_blog" href="https://developerslife.tech/pt/" target="_blank">Clique aqui para acessar o blog!</a></h4><br>
             <br>
         </div>
 
