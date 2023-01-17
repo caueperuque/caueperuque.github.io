@@ -25,20 +25,64 @@
                 border-radius: 100%;
             }
 
+
+            
+
+            #title {
+                background-color: rgb(65, 30, 152);
+                padding: 30px;
+                border-radius: 5%;
+                margin: auto;
+                text-align: center;
+                width: 400px;
+            }
+
+            .centraliza {
+                text-align: center;
+            }
+
+            .topicos {
+                color: white;
+                background-color: rgb(65, 30, 152);
+                padding: 30px;
+                border-radius: 5%;
+                margin: 10px 5px;
+                width: 400px;
+                height: 300px;
+            }
+
+            .topico_horizontal {
+                color: white;
+                background-color: rgb(65, 30, 152);
+                padding: 1px 10px;
+                border-radius: 10%;
+                margin: 10px ;
+                width: 1200px;
+            }
+
         </style>
 
         <title>Portfólio Cauê Peruque</title>
 
     </head>
     <body>
-        <h1><strong>Portfólio de Cauê</strong></h1>
-        <p id="caue"><img id = "perfil" src="https://avatars.githubusercontent.com/u/91163869?v=4" width="200px" alt="Foto de Cauê Peruque"></p><br>
-        <h1><strong>Tópicos</strong></h1>
-        <ul>
-        <a href="#caue"><h3>Minha foto</h3></a>
-        <a href="#about"><h3>Quem sou eu</h3></a>
-        <a href="#habilidades"><h3>Habilidades</h3></a>
-    </ul>
+
+        <h1 id = "title"><strong>Portfólio de Cauê</strong></h1>
+
+        <div class = "centraliza">
+            <p id="caue"><img id = "perfil" src="https://avatars.githubusercontent.com/u/91163869?v=4" width="200px" alt="Foto de Cauê Peruque"></p><br>
+        </div>
+
+        <div class = "topicos">
+            <h1><strong>Tópicos:</strong></h1>
+            <ul>
+                <a href="#caue"><h3>º Minha foto</h3></a>
+                <a href="#about"><h3>º Quem sou eu</h3></a>
+                <a href="#habilidades"><h3>º Habilidades</h3></a>
+            </ul>
+        </div>
+
+        <div class = "topicos">
         <br><h2 id="about"><strong>Bem-vindo ao meu portfólio</strong></h2>
             <em>Olá meu nome é Cauê Prado Peruque,<br>
             Nascido e criado em Presidente Prudente - SP<br>
@@ -48,18 +92,25 @@
             Meu sonho é se tornar um Dev de alta competência,<br>
             Para isso decidi me formar na Trybe!</em>
         </p>
-        <br><h2 id="habilidades"><strong>Minhas habilidades</strong></h2>
-        <ul>
-            <li><em><strong>Dedicado</strong></em></li>
-            <li>Focado</li>
-            <li>Sociável</li>
-            <li>Aprendo rápido (de certo modo)</li>
-            <li>Divertido</li>
-        </ul>
+        </div>
+
+        <div class = "topicos">
+            <br><h2 id="habilidades"><strong>Minhas habilidades</strong></h2>
+            <ul id = "ga">
+                <li><em><strong>Dedicado</strong></em></li>
+                <li>Focado</li>
+                <li>Sociável</li>
+                <li>Aprendo rápido (de certo modo)</li>
+                <li>Divertido</li>
+            </ul>
+            </div>
+        
         <br>
-        <h2><strong>O blog que eu mais gosto é o The Developer's life (Autor do blog: André Noel)</strong></h2>
-        <h4><a href="https://developerslife.tech/pt/" target="_blank">Link para acessar o blog!</a></h4><br>
-        <br>
+        <div class = "topico_horizontal">
+            <h2><strong>O blog que eu mais gosto é o The Developer's life (Autor do blog: André Noel)</strong></h2>
+            <h4><a href="https://developerslife.tech/pt/" target="_blank">Clique aqui para acessar o blog!</a></h4><br>
+            <br>
+        </div>
 
     </body>
 </html>
