@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7d1128 ;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+    /* Header */
+
+#header-1 {
+    text-align: center;
+    background-color: #3c0919;
+    padding: 10px;
+}
+
+#text-header1 {
+    margin: 30px;
+}
+
+    /* sessão foto */
+
+#initial{
+    display: flex;
+}
+
+#my_img{
+    border-radius: 50%;
+}
+
+#about{
+    float:left;
+}
