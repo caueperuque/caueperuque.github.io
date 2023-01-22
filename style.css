@@ -28,12 +28,23 @@ body {
 
 #initial{
     display: flex;
+    padding: 30px;
+    width: 1820px;
+    margin-top: 30px;
+    position: absolute;
+    right: 50px;
+    /* border: 5px solid black; */
+    background-color: #dd8b9d;
 }
 
 #my_img{
     border-radius: 50%;
+    width: 250px;
+    box-shadow: 10px 5px 5px #4b0a18;
 }
 
 #about{
-    float:left;
+    margin-right: 100px;
+    margin-top: 50px;
 }
+
